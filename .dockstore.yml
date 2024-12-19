@@ -5,6 +5,8 @@ workflows:
     primaryDescriptorPath: fizzbuzz.wdl
     branches:
       - main
+    testParameterFiles:
+      - input.tiny.json 
     authors:
       - name: Adam M Novak
         email: anovak@soe.ucsc.edu
