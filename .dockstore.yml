@@ -2,11 +2,11 @@ version: 1.2
 workflows:
   - name: FizzBuzz
     subclass: WDL 
-    primaryDescriptorPath: fizzbuzz.wdl
+    primaryDescriptorPath: /fizzbuzz.wdl
     branches:
       - main
     testParameterFiles:
-      - input.tiny.json 
+      - /input.tiny.json 
     authors:
       - name: Adam M Novak
         email: anovak@soe.ucsc.edu
