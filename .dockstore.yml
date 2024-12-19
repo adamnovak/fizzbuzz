@@ -3,8 +3,6 @@ workflows:
   - name: FizzBuzz
     subclass: WDL 
     primaryDescriptorPath: /fizzbuzz.wdl
-    branches:
-      - main
     testParameterFiles:
       - /input.tiny.json 
     authors:
