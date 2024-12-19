@@ -1,0 +1,12 @@
+version: 1.2
+workflows:
+  - name: FizzBuzz
+    subclass: WDL 
+    primaryDescriptorPath: fizzbuzz.wdl
+    branches:
+      - main
+    authors:
+      - name: Adam M Novak
+        email: anovak@soe.ucsc.edu
+        orcid: 0000-0001-5828-047X
+
